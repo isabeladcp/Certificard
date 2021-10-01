@@ -1,0 +1,155 @@
+body {
+  font-family: "Roboto Mono",monospace;
+  background-image: url('https://images2.alphacoders.com/555/555684.jpg');
+  background-size: cover;
+}
+
+.container {
+  -webkit-box-shadow: 4px 4px 44px 4px rgba(0,0,0,0.59); 
+  box-shadow: 4px 4px 44px 4px rgba(0,0,0,0.59);
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 500px;
+  margin-top: 100px;
+  background-color: white;
+  padding: 32px;
+  border-radius: 20px;
+}
+
+.cabecalho {
+  display: flex;
+  justify-content: space-between;
+}
+
+.perfil {
+  display: flex;
+}
+
+.perfil-foto {
+  height: 160px;
+  width: 158px;
+  left: 154px;
+  top: 79px;
+  border-radius: 460px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.5);
+}
+
+.titulo {
+  margin-left: 16px;
+}
+
+.titulo h1 {
+  font-weight: 700;
+  font-size: 36px;
+}
+
+.titulo h3 {
+  font-weight: normal;
+  font-size: 24px;
+}
+.titulo h4{
+  font-weight: 600;
+  font-size: 15px;
+  margin-top: 2px;
+}
+.tema button {
+  align-self: flex-end;
+  padding: 8px 16px;
+  background: #ECF4FF;
+  box-sizing: border-box;
+  border-radius: 100px;
+  border: 2px solid #0E1D2F;
+}
+
+.portfolio {
+  margin-top: 64px;
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  gap: 16px;
+}
+
+.projetos {
+  height: 428px;
+  width: 333px;
+  left: 154px;
+  top: 300px;
+  border-radius: 20px;
+  overflow-y: scroll;
+  scrollbar-width: thin;
+  flex-direction: row;
+  align-items: flex;
+  padding: 52px;
+  background: linear-gradient(135deg, #dbdbdb 0%, #9d9d9d 100%);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.5);
+}
+
+.projetos ul {
+  list-style: none;
+  padding-left: 0;
+  font-weight: 700;
+  font-size: 24px;
+}
+
+.projetos li {
+  list-style-type: none;
+  font-size: 20px;
+  line-height: 1em;
+}
+
+.social {
+  margin-right: 5px;
+  transition: 0.2s;
+  max-height: 30px;
+}
+
+.social:hover {
+  transform: scale(1.25);
+}
+
+.dark {
+  background-image: url('https://images4.alphacoders.com/803/803450.jpg');
+  background-size: cover;
+}
+  
+.dark .container {
+  background: #333439;
+  color: #F6F6F6;
+}
+
+.dark .portfolio {
+  color: #1C1C1C;
+}
+
+.dark .tema button {
+  color: #FFFFFF;
+  background: #1C1C1C;
+  box-sizing: border-box;
+  border-radius: 100px;
+  border: 2px solid #F7F7F7;
+}
+.dark .social{
+  filter: invert(100%);
+}
+
+::-webkit-scrollbar{
+width: 5px;
+height: 5px;
+}
+
+::-webkit-scrollbar-thumb{
+background: #1C1C1C;
+border: 1.8px solid #1C1C1C;
+border-radius: 100px;
+}
+
+::-webkit-scrollbar-thumb:hover{
+background: #ECF4FF;
+}
+
+::-webkit-scrollbar-track{
+background: #ECF4FF;
+border-radius: 100px;
+box-shadow: inset 0px 0px 0px 0px #F0F0F0;
+margin: 15px 0px;
+}
